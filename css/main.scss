@@ -1,0 +1,313 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-nyxjol');
+	src:url('../fonts/icomoon.eot?#iefix-nyxjol') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-nyxjol') format('woff'),
+		url('../fonts/icomoon.ttf?-nyxjol') format('truetype'),
+		url('../fonts/icomoon.svg?-nyxjol#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-question:before {
+	content: "\e601";
+}
+.icon-facebook:before {
+	content: "\e602";
+}
+.icon-twitter:before {
+	content: "\e603";
+}
+.icon-youtube:before {
+	content: "\e604";
+}
+.icon-tux:before {
+	content: "\e605";
+}
+.icon-apple:before {
+	content: "\e606";
+}
+.icon-windows8:before {
+	content: "\e600";
+}
+
+
+body {
+  background-color: rgba(23, 90, 111, 0.9);
+    max-width: 100%;
+    font-family: 'Lato', sans-serif;
+    
+    }
+body a:hover{text-decoration: none;}
+/*================================
+Variable
+=================================*/
+
+$color: #fff;
+$btn-color:#05acb7;
+
+/*================================
+NavBar
+=================================*/
+.navbar{background-color: rgba(255, 255, 255, 0.96);
+    
+}
+
+ul.ho a:hover { 
+    background-color: $btn-color !important; 
+    color:#fff;   
+    padding-bottom: 30px;
+    transition: 0.3s;
+}
+ul.ho a{ 
+    color:#000;          
+    margin: 0 5px;
+    font-size:1.3em;
+    padding-bottom: 30px;
+}
+
+
+
+.w8{
+    color:#060621;
+    font-size: 1em;
+    padding-left: 10px;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+
+.ro {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding:5px 0;
+    
+}
+
+
+
+.btn-group {
+    padding:0.9em 0 ;
+}
+
+.icon-windows8 {
+    margin-left: 20px;
+    margin-bottom:0;
+    font-size: 2.5em;
+    color:#e5e500;
+    speak: none;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -webkit-animation:w8 5s 3s infinite alternate;
+    -o-animation: w8 5s 3s infinite alternate;
+    animation: w8 5s 3s infinite alternate;
+    
+}
+
+.glyphicon-chevron-down{font-size: 1.3em;
+                        color: #14cff0;
+}
+
+
+
+
+/*================================
+Jumbotron
+=================================*/
+.jumbotron{
+    margin-bottom:0;
+    padding-top: 100px;
+}
+
+.btn1{
+    background-color: $btn-color;
+    color: #fff;
+    
+}
+
+.btn1:hover{
+    color: #fff;
+}
+
+/*================================
+w9 features
+=================================*/
+.fet{
+background:$color;
+}
+
+.gif{margin: 0 auto;}
+
+
+.glyphicon-ok{color:#258625;}
+
+.works{font-weight:  600;}
+
+/*================================
+Table
+=================================*/
+
+.tab{
+background:linear-gradient($color, $color, #c7ffce);
+    padding-top: 60px;
+    padding-bottom: 60px; 
+}
+
+.table{
+    margin: 0 auto;
+   
+        
+}
+thead{
+border-bottom:2px solid rgba(113, 106, 106, 0.56);
+    font-size:2.5em;
+    
+}
+
+.th1{color:black;
+        font-size: 0.8em;}
+.th2{
+    -webkit-animation: hidden;
+    -moz-animation: hidden;
+    -ms-animation: hidden;
+    -o-animation: hidden;
+   animation: hidden;
+    font-size:1.7em;
+    color:#00bcf2;
+    padding:20px;
+    
+}
+.th3{color:#272424;
+    font-size: 0.8em;}
+    
+.td{border-right: 3px solid rgba(113, 106, 106, 0.56);
+   
+}
+td{border-bottom: 1px solid rgba(113, 106, 106, 0.56);}
+
+/*================================
+More Features
+=================================*/
+
+.fea{background: linear-gradient(#c7ffce, #fff);
+    width: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.glyphicon-volume-down{color: #505050;}
+.glyphicon-fire{color: #b20000;}
+.glyphicon-heart{color: #891414;}
+
+
+/*================================
+Map
+=================================*/
+.map{background-color: #4141c1;
+    color:#000;   
+    margin-bottom: 0;
+}
+
+.rmap{
+position: relative;
+padding-bottom: 22.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+.rmap iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 90%;
+}
+
+.upp{font-size:1.3em;
+    color: #c3c3d3;
+}
+
+.upp:hover{font-size:1.3em;
+    color: #c3c3d3;
+    transition:0.1s;
+
+}
+
+/*================================
+Footer
+=================================*/
+.foo {background-color: #120c0c;
+        border-top:8px solid #11b4be;
+    margin-top: 0;
+}
+.icon-facebook{color: #3b5998;}
+.icon-twitter{color: #55acee;}
+.icon-youtube{color: #e52d27;}
+.ic{font-size: 3em;
+    
+}
+.color{color:#a3a3a3;}
+/*================================
+Animations
+=================================*/
+
+@-webkit-keyframes w8 {
+    0% {color:#eaea1e;  }
+    50%{color:#eaea1e;}
+    100% {color:#060b96;  }
+}
+@-o-keyframes w8 {
+    0% {color:red;  }
+    50%{color:#eaea1e;}
+    100% {color:green;  }
+}
+@-moz-keyframes w8 {
+    0% {color:red;  }
+    50%{color:#eaea1e;}
+    100% {color:green;  }
+}
+@keyframes w8 {
+    0% {color:#eaea1e;  }
+    50%{color:#eaea1e;}
+    100% {color:#060b96;  }
+}
+
+
+/*================================
+Media Queries
+=================================*/
+
+
+@media (max-width: 768px) {
+  .btn-responsive {
+      margin:0 -60px 15px 60px;
+    padding:2px 40px;
+    font-size:100%;
+    line-height: 2;
+    border-radius:3px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .btn-responsive {
+          margin:0 -50px 15px 90px;
+    padding:4px 50px;
+    font-size:100%;
+    line-height: 2;
+  }
+}
