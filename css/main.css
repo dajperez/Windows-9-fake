@@ -292,3 +292,6 @@ Media Queries
     padding: 4px 50px;
     font-size: 100%;
     line-height: 2; } }
+@media (min-width: 978px) and (max-width: 1220px) {
+  .con {
+    margin-top: 26px !important; } }
