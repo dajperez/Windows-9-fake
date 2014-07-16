@@ -192,7 +192,18 @@ Map
   margin-bottom: 0; }
 
 .rmap {
-  height: 300px; }
+  position: relative;
+  padding-bottom: 22.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden; }
+
+.rmap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90%; }
 
 .upp {
   font-size: 1.3em;
