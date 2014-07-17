@@ -144,6 +144,11 @@ Jumbotron
     color: #fff;
 }
 
+.disabled:hover{
+    cursor:not-allowed !important;
+}
+
+
 /*================================
 w9 features
 =================================*/

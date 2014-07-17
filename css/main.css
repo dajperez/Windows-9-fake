@@ -111,6 +111,9 @@ Jumbotron
 .btn1:hover {
   color: #fff; }
 
+.disabled:hover {
+  cursor: not-allowed !important; }
+
 /*================================
 w9 features
 =================================*/
