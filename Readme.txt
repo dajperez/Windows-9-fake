@@ -1,1 +1,1 @@
-This is practice project. Feel free to see the code if you want.
+This is a practice project. Feel free to see the code if you want.
